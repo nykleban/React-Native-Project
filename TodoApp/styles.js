@@ -30,6 +30,41 @@ export default StyleSheet.create({
     padding: 25,
   },
 
+  form: {
+    backgroundColor: 'white',
+    padding: 20,
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    padding: 8,
+    marginBottom: 10,
+  },
+  error: {
+    color: 'red',
+  },
+  priorityRow: {
+    flexDirection: 'row',
+    gap: 16,
+    marginVertical: 10,
+  },
+  priority: {
+    color: 'gray',
+  },
+  selectedPriority: {
+    color: '#6195F5',
+    fontWeight: 'bold',
+  },
+  submitButton: {
+    backgroundColor: '#6195F5',
+    padding: 10,
+    alignItems: 'center',
+  },
+  submitText: {
+    color: 'white',
+    fontWeight: 'bold',
+  },
+
   task: {
     backgroundColor: 'white',
     padding: 15,
@@ -42,9 +77,17 @@ export default StyleSheet.create({
   },
 
   taskText: {
-    flex: 1,
     fontSize: 13,
     marginRight: 10,
+  },
+
+  taskDetails: {
+    flex: 1,
+  },
+  taskMeta: {
+    fontSize: 11,
+    color: 'gray',
+    marginTop: 4,
   },
 
   status: {
