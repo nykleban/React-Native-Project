@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "EuroprotocolApp",
+    "slug": "europrotocol-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#587F79",
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
